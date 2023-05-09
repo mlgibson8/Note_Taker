@@ -11,8 +11,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-
-
 app.get('/', (req, res) =>{
      res.sendFile(path.join(__dirname, './public/index.html'));});
 app.get('/notes', (req, res) =>{
@@ -22,7 +20,7 @@ app.get('/api', (req, res) =>{
 app.get('/api/notes', (req, res) =>{
      fs.readFile('./db/db.json', 'utf-8', (err, data) => {
          if(err){
-             console.error('500: Could not read database');
+             console.error('500: db error');
              console.error(err);
              res.sendStatus(500)
          }
@@ -47,7 +45,7 @@ app.post('/api/notes', (req, res) =>{
      if(title && text){
           fs.readFile('./db/db.json', 'utf-8', (err, data) => {
                if(err){
-                   console.error('500: Could not read database');
+                   console.error('500: db error');
                    console.error(err);
                    res.sendStatus(500)
                } else {
@@ -56,7 +54,7 @@ app.post('/api/notes', (req, res) =>{
                     const updated = JSON.stringify(parsed, null ,"\t");
                     fs.writeFile('./db/db.json', JSON.stringify(parsed), (err) => {
                          if(err){
-                              console.error('500: Could not write to database');
+                              console.error('500: db error');
                               console.error(err);
                               res.sendStatus(500);} else 
                               console.info('200: Succesful POST');
