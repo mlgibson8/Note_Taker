@@ -5,7 +5,7 @@ let newNoteBtn;
 let noteList;
 //path for the notes
 
-if (window.location.pathname === '../public/notes.html') {
+if (window.location.pathname === '../public/api/notes.html') {
   noteTitle = document.querySelector(".note-title");
   noteText = document.querySelector(".note-textarea");
   saveNoteBtn = document.querySelector(".save-note");
@@ -38,7 +38,7 @@ const getNotes = () =>
   });
 
 const saveNote = (note) =>
-  fetch("/notes", {
+  fetch("../public/notes.html", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
