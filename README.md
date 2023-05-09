@@ -4,7 +4,7 @@ Module 11 Challenge : Express.js Challenge: Note Taker
 ## Description
   it take notes and stores them as an api
 ## Screenshots
-    ![Screenshot](undefined)
+    ![Screenshot](https://github.com/mlgibson8/Note_Taker/blob/main/note_taker.png)
 ## Table of Contents
 * [Installation](#installation)
 * [Features](#features)
