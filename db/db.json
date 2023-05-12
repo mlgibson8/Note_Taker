@@ -1,1 +1,12 @@
-[{"title":"abc1234","text":"letters and numbers","id":"ae63db25-d4f7-48b2-bd9f-c0a2d0300c87"},{"title":"abc1234","text":"letters and numbers","id":"bfa93e16-09c9-464b-9495-bda86a4e1dbe"}]
+[
+	{
+		"title": "abc1234",
+		"text": "letters and numbers",
+		"id": "ae63db25-d4f7-48b2-bd9f-c0a2d0300c87"
+	},
+	{
+		"title": "new note",
+		"text": "note",
+		"id": "4fcb0c26-2865-44ac-a1dd-276d590a7f1b"
+	}
+]
