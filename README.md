@@ -1,6 +1,6 @@
 # Note_Taker
 Module 11 Challenge : Express.js Challenge: Note Taker
-  [!Github License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Github License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Description
   it take notes and stores them as an api
 ## Screenshots
