@@ -4,7 +4,7 @@ Module 11 Challenge : Express.js Challenge: Note Taker
 ## Description
   it take notes and stores them as an api
 ## Screenshots
-    ![Screenshot](https://github.com/mlgibson8/Note_Taker/blob/main/note_taker.png)
+ ![Screenshot](https://github.com/mlgibson8/Note_Taker/blob/main/note_taker.png)
 ## Table of Contents
 * [Installation](#installation)
 * [Features](#features)
@@ -31,5 +31,5 @@ Module 11 Challenge : Express.js Challenge: Note Taker
 ## License
     
 ## Deployed Application URL
-    https://github.com/mlgibson8/Note_Taker , https://dashboard.heroku.com/apps/note-taker-mlgibson/deploy/github
+    https://github.com/mlgibson8/Note_Taker , https://mlgibson-note-taker-a2879561d918.herokuapp.com/
 
